@@ -1,6 +1,7 @@
 {
   "name": "lw-site",
   "version": "0.1.0",
+  "repository": "https://github.com/vlw0052/lw-site.git",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
