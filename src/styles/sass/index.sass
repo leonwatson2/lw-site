@@ -1,0 +1,68 @@
+@import 'reset'
+@import 'colors'
+@import 'animations'
+@import 'typography'
+@import 'Projects'
+
+.container
+  --device-height: 667px
+
+#root
+  overflow: hidden 
+.menu-toggle
+  position: fixed
+  top: 15px
+  right: 15px
+  color: white  
+.menu
+  position: fixed
+  width: 100%
+  
+.container
+  position: relative
+  display: grid
+  grid-template-columns: 1fr 4fr
+  width: 100%
+  height: var(--device-height)
+  margin: 0
+  & .main 
+    max-width: 100%
+    font-size: calc(100% - 0vw)
+    color: white
+    background: teal
+    display: flex
+    justify-content: center
+    align-items: center
+    h2
+      transform: rotateZ(-90deg)
+
+  
+  & .falling-boxes
+    position: relative
+    display: grid
+    
+    & .box
+      transform-origin: top center  
+      animation-timing-function: ease-in-out, linear 
+      animation-name: fall, main-color
+      animation-fill-mode: forwards, forwards
+      animation-duration: .25s, .5s
+      animation-delay: 0s, 2s
+  
+  & .main-words
+    position: absolute
+    left: 0
+    top: 50%
+    width: 100%
+    transform: translate3d(0, -50%, 0)
+    z-index: 1
+    font-size: 4rem
+    color: white
+    margin: 0
+    text-align: center
+    small
+      display: block
+      font-size: .5em
+    &--center
+      @extend .main-words
+      text-align: center

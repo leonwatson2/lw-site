@@ -1,0 +1,9 @@
+$red: #C63B31
+$dark-red: #791912
+$light-red: #ff6459
+$light-green: #31C66f
+$dark-green: #067936
+$all-colors: (red:$red, dark-red:$dark-red, light-red:$light-red, dark-green:$dark-green, light-green:$light-green)
+@each $name, $color in $all-colors
+  & .#{$name}
+    background: $color

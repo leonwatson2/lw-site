@@ -1,0 +1,46 @@
+{
+  "technologies":[
+    { "name":"React" },
+    { "name":"JavaScript" },
+    { "name":"Socket.io" },
+    { "name":"Python" },
+    { "name":"Bootstrap" },
+    { "name":"PHP" },
+    { "name":"Angularjs" },
+    { "name":"CSS3" },
+    { "name":"Sass" },
+    { "name":"HTML5" },
+    { "name":"JQuery" },
+    { "name":"MySQL" },
+    { "name":"NodeJs" },
+    { "name":"Git" },
+    { "name":"Mongodb" },
+    { "name":"Wordpress" }
+  ],
+  "projects":[ 
+    {
+      "name":"Untjfa",
+      "technologies":[ { "name":"css3" } ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi amet minus voluptates. Ex dicta neque recusandae facilis, quibusdam ipsa rerum eos ducimus doloremque, architecto explicabo itaque cumque provident illo."
+    }, 
+    {
+      "name":"Grdcalc",
+      "technologies":[ { "name":"css3" } ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi amet minus voluptates. Ex dicta neque recusandae facilis, quibusdam ipsa rerum eos ducimus doloremque, architecto explicabo itaque cumque provident illo."
+    }, 
+    {
+      "name":"Youtube",
+      "technologies":[ { "name":"css3" } ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi amet minus voluptates. Ex dicta neque recusandae facilis, quibusdam ipsa rerum eos ducimus doloremque, architecto explicabo itaque cumque provident illo."
+    }, 
+    {
+      "name":"ChatApp",
+      "technologies":[ { "name":"css3" } ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi amet minus voluptates. Ex dicta neque recusandae facilis, quibusdam ipsa rerum eos ducimus doloremque, architecto explicabo itaque cumque provident illo."
+    }, 
+    {
+      "name":"UDemy",
+      "technologies":[ { "name":"css3" } ],
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi amet minus voluptates. Ex dicta neque recusandae facilis, quibusdam ipsa rerum eos ducimus doloremque, architecto explicabo itaque cumque provident illo."
+    }]
+}

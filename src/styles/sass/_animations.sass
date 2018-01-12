@@ -1,0 +1,24 @@
+@keyframes fall
+  from 
+    transform: translate3d(0, -75%, 0)
+    opacity: 0
+  to
+    opacity: 1    
+    transform: translate3d(0, 0, 0)
+@keyframes main-color
+  to
+    background-color: $dark-red
+
+@keyframes fade-in
+  to 
+    opacity: 1
+
+.fade-in
+  opacity: 0
+  animation-name: fade-in
+  animation-fill-mode: forwards
+  animation-duration: .75s
+  animation-timing-function: ease-in
+  &--delay2
+    @extend .fade-in
+    animation-delay: 2s
