@@ -20,7 +20,15 @@
   "projects":[ 
     {
       "name":"Untjfa",
-      "technologies":[ { "name":"css3" } ],
+      "technologies":[ { "name":"css3" },
+        { "name":"Sass" },
+        { "name":"HTML5" },
+        { "name":"JQuery" },
+        { "name":"MySQL" }, { "name":"CSS3" },
+        { "name":"Sass" },
+        { "name":"HTML5" },
+        { "name":"JQuery" },
+        { "name":"MySQL" } ],
       "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eligendi amet minus voluptates. Ex dicta neque recusandae facilis, quibusdam ipsa rerum eos ducimus doloremque, architecto explicabo itaque cumque provident illo."
     }, 
     {
